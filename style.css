@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+section{
+    padding: 50px 10%;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #5a3d9a;
+    font-size: 2rem;
+}
+
+#about{
+    text-align: center;
+    background: white;
+}
+
+#about img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #667eea;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+#skills{
+    background: #eef2ff;
+    text-align: center;
+}
+
+#skills ul{
+    list-style: none;
+}
+
+#skills li{
+    display: inline-block;
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#skills li:hover{
+    transform: translateY(-5px);
+}
+
+#projects{
+    background: white;
+}
+
+.project-card{
+    background: linear-gradient(135deg, #ffffff, #f3f4ff);
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+}
+
+.project-card h3{
+    color: #667eea;
+    margin-bottom: 15px;
+}
+
+.project-card img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#resume{
+    background: #eef2ff;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+#contact{
+    background: white;
+    text-align: center;
+}
+
+#contact p{
+    margin: 12px 0;
+    font-size: 1.05rem;
+}
+
+footer{
+    background: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    section{
+        padding: 40px 5%;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+}
