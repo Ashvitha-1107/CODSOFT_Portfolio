@@ -64,7 +64,7 @@ Computer Science Student
 
 ## 📧 Contact
 
-- **Email:** your-email@example.com
+- **Email:** ashvithamcp@gmail.com
 - **GitHub:** https://github.com/ashvitha-1107
 - **LinkedIn:** https://www.linkedin.com/in/ashvitha-m-c-p-08b7a6380/
 
